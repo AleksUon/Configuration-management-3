@@ -1,0 +1,12 @@
+constants:
+  x: 10
+  y: 20
+  z: 5
+
+project:
+  name: "Имя проекта"
+  value1: "!(x + y)"
+  value2: "!(max(x, y, z))"
+  debug_message: "!(print('print работает'))"
+  nested:
+    calculated_value: "!(x - z)"
